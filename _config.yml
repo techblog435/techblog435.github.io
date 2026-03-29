@@ -19,14 +19,6 @@ title: Muhammad Ibrahim # the main title
 tagline: My first blog in university # it will display as the subtitle
 
 description: >- # used by seo meta and the atom feed
-  Skills and Tools
-A computer engineering student develops a diverse technical toolkit:
-
-Languages: Proficiency in low-level languages like C and C++ for performance, alongside Hardware Description Languages (HDL) like Verilog or VHDL.
-
-Mathematics: Heavy reliance on discrete math, calculus, and linear algebra for signal processing and algorithm analysis.
-
-Hardware Labs: Experience using oscilloscopes, multimeters, and soldering irons to prototype and test physical circuits.
 
 # Fill in the protocol & hostname for your site.
 # E.g. 'https://techblog435.github.io', note that it does not end with a '/'.
