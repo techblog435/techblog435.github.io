@@ -1,6 +1,6 @@
 ---
 title: Visualizing the UET Spirit
-date: 2026-04-03 12:00:00 +0500
+date: 2026-04-02
 categories: [University, Engineering]
 tags: [uet, matplotlib, seaborn, data-viz]
 description: Reflections on my first official event as a CE student and a deep dive into data storytelling.
