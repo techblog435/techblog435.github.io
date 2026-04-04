@@ -4,6 +4,8 @@ date: 2026-04-02
 categories: [University, Engineering]
 tags: [uet, matplotlib, seaborn, data-viz]
 description: Reflections on my first official event as a CE student and a deep dive into data storytelling.
+image:
+  path: /assets/img/welcome.jpg
 ---
 
 ## The Senior’s Welcome: Reflections on my first official event as a CE student
