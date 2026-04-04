@@ -1,0 +1,259 @@
+---
+---
+
+@use 'main';
+
+/* ============================================
+   MUHAMMAD IBRAHIM — Custom Theme Override
+   Add to: assets/css/jekyll-theme-chirpy.scss
+   ============================================ */
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=DM+Sans:wght@300;400;500&display=swap');
+
+/* ---------- CSS Variables (Dark mode = default) ---------- */
+:root {
+  --gold:        #c9a96e;
+  --gold-light:  #e8d5a3;
+  --gold-dim:    rgba(201, 169, 110, 0.18);
+  --navy:        #0a0f1e;
+  --navy-mid:    #111827;
+  --navy-card:   rgba(255, 255, 255, 0.04);
+  --text-main:   #f0e6d0;
+  --text-muted:  rgba(240, 230, 208, 0.65);
+  --border-dim:  rgba(255, 255, 255, 0.08);
+}
+
+/* ---------- Wallpaper Background ---------- */
+body {
+  background-color: var(--navy) !important;
+  background-image:
+    radial-gradient(ellipse 700px 500px at 20% 50%, rgba(201,169,110,0.08) 0%, transparent 70%),
+    radial-gradient(ellipse 600px 400px at 80% 20%, rgba(74,127,165,0.12) 0%, transparent 70%),
+    repeating-linear-gradient(0deg,   transparent, transparent 99px, rgba(201,169,110,0.03) 100px),
+    repeating-linear-gradient(90deg,  transparent, transparent 99px, rgba(201,169,110,0.03) 100px);
+  background-attachment: fixed;
+  font-family: 'DM Sans', sans-serif !important;
+  color: var(--text-main) !important;
+}
+
+/* ---------- Sidebar ---------- */
+#sidebar {
+  background: rgba(10, 15, 30, 0.85) !important;
+  backdrop-filter: blur(12px);
+  border-right: 0.5px solid var(--border-dim) !important;
+}
+
+/* Site title */
+#sidebar .site-title a {
+  font-family: 'Playfair Display', serif !important;
+  font-size: 1.3rem !important;
+  color: var(--text-main) !important;
+  letter-spacing: 0.01em;
+}
+
+/* Subtitle / tagline */
+#sidebar .site-subtitle {
+  font-size: 0.7rem !important;
+  letter-spacing: 0.14em !important;
+  text-transform: uppercase !important;
+  color: var(--gold) !important;
+}
+
+/* Avatar ring */
+#sidebar img.rounded-circle,
+#sidebar .avatar {
+  border: 2px solid rgba(201, 169, 110, 0.5) !important;
+  box-shadow: 0 0 18px rgba(201, 169, 110, 0.15) !important;
+}
+
+/* Nav links */
+#sidebar nav li a {
+  color: var(--text-muted) !important;
+  font-size: 0.82rem !important;
+  letter-spacing: 0.04em;
+  transition: color 0.2s, background 0.2s;
+}
+#sidebar nav li a:hover,
+#sidebar nav li.active a {
+  color: var(--text-main) !important;
+  background: var(--gold-dim) !important;
+  border-radius: 8px;
+}
+
+/* Sidebar icons */
+#sidebar nav li a i,
+#sidebar nav li a svg {
+  color: var(--gold) !important;
+  opacity: 0.75;
+}
+#sidebar nav li.active a i,
+#sidebar nav li.active a svg,
+#sidebar nav li a:hover i,
+#sidebar nav li a:hover svg {
+  opacity: 1;
+}
+
+/* Social icons */
+#sidebar .sidebar-bottom a,
+#sidebar footer a {
+  color: rgba(201,169,110,0.6) !important;
+  transition: color 0.2s;
+}
+#sidebar .sidebar-bottom a:hover,
+#sidebar footer a:hover {
+  color: var(--gold) !important;
+}
+
+/* ---------- Topbar ---------- */
+#topbar-wrapper,
+.topbar-wrapper {
+  background: rgba(10, 15, 30, 0.7) !important;
+  backdrop-filter: blur(10px);
+  border-bottom: 0.5px solid var(--border-dim) !important;
+}
+
+/* ---------- Main content panel ---------- */
+#main-wrapper,
+main.col-12,
+.main {
+  background: transparent !important;
+}
+
+/* Page / post wrapper */
+.post-content,
+#page-home,
+.page-home {
+  background: transparent !important;
+}
+
+/* ---------- Home page heading ---------- */
+h1.dynamic-title,
+.page-title h1,
+h1 {
+  font-family: 'Playfair Display', serif !important;
+  color: var(--text-main) !important;
+}
+
+/* ---------- Info / detail text ---------- */
+p, li, .content {
+  color: var(--text-muted) !important;
+  font-weight: 300;
+  line-height: 1.75;
+}
+
+/* Bold / strong keeps gold accent */
+strong, b {
+  color: var(--gold-light) !important;
+  font-weight: 500;
+}
+
+/* ---------- Cards (post list, etc.) ---------- */
+.card,
+.post-preview {
+  background: var(--navy-card) !important;
+  border: 0.5px solid var(--border-dim) !important;
+  border-radius: 10px !important;
+  transition: border-color 0.2s, box-shadow 0.2s;
+}
+.card:hover,
+.post-preview:hover {
+  border-color: rgba(201, 169, 110, 0.3) !important;
+  box-shadow: 0 4px 24px rgba(201, 169, 110, 0.06) !important;
+}
+
+/* Card titles */
+.card-title a,
+.post-preview h1,
+.post-preview .card-title {
+  font-family: 'Playfair Display', serif !important;
+  color: var(--text-main) !important;
+}
+
+/* ---------- Tags ---------- */
+.post-tag,
+.tag {
+  background: transparent !important;
+  border: 0.5px solid rgba(201, 169, 110, 0.3) !important;
+  color: var(--text-muted) !important;
+  border-radius: 20px !important;
+  font-size: 0.73rem !important;
+  letter-spacing: 0.04em;
+  transition: all 0.2s;
+}
+.post-tag:hover,
+.tag:hover {
+  background: var(--gold-dim) !important;
+  border-color: var(--gold) !important;
+  color: var(--text-main) !important;
+}
+
+/* ---------- "Recently Updated" panel ---------- */
+#access-lastmod .post-title,
+.access-lastmod a {
+  color: var(--text-muted) !important;
+  font-size: 0.82rem;
+}
+#access-lastmod .post-title:hover,
+.access-lastmod a:hover {
+  color: var(--gold) !important;
+}
+
+/* ---------- Dividers & borders ---------- */
+hr {
+  border-color: var(--border-dim) !important;
+}
+
+/* ---------- Search input ---------- */
+#search-input,
+.search-input {
+  background: rgba(255,255,255,0.05) !important;
+  border: 0.5px solid var(--border-dim) !important;
+  color: var(--text-main) !important;
+  border-radius: 8px !important;
+}
+#search-input::placeholder {
+  color: var(--text-muted) !important;
+}
+
+/* ---------- Links ---------- */
+a {
+  color: var(--gold) !important;
+  text-decoration: none !important;
+}
+a:hover {
+  color: var(--gold-light) !important;
+}
+
+/* ---------- Code blocks ---------- */
+code, pre {
+  background: rgba(255,255,255,0.05) !important;
+  border: 0.5px solid var(--border-dim) !important;
+  color: #b8d4f0 !important;
+  border-radius: 6px !important;
+}
+
+/* ---------- Scrollbar (webkit) ---------- */
+::-webkit-scrollbar { width: 5px; }
+::-webkit-scrollbar-track { background: var(--navy); }
+::-webkit-scrollbar-thumb {
+  background: rgba(201, 169, 110, 0.25);
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(201, 169, 110, 0.5);
+}
+
+/* ---------- Footer ---------- */
+footer {
+  background: transparent !important;
+  border-top: 0.5px solid var(--border-dim) !important;
+  color: rgba(240, 230, 208, 0.3) !important;
+  font-size: 0.7rem !important;
+  letter-spacing: 0.05em;
+}
+footer a {
+  color: rgba(201,169,110,0.5) !important;
+}
+footer a:hover {
+  color: var(--gold) !important;
+}
