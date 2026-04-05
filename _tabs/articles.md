@@ -154,7 +154,7 @@ order: 1
       </div>
       <div class="card-meta-bottom">
         <span class="read-time">6 min read</span>
-        <a href="#" class="btn-read">Read More</a>
+        <a href="/posts/my-first-week/" class="btn-read">Read More</a>
       </div>
     </div>
   </div>
