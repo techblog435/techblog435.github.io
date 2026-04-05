@@ -149,8 +149,8 @@ order: 1
           <span class="badge">Lab Project</span>
           <span class="card-date">20 Mar 2026</span>
         </div>
-        <div class="card-title">Building My First Lab Website</div>
-        <div class="card-excerpt">My first complete website submission using HTML, CSS, and a little JavaScript with responsive design.</div>
+        <div class="card-title">Visualizing the UET Spirit</div>
+        <div class="card-excerpt">My journey of first week in which i learned different things about my life.</div>
       </div>
       <div class="card-meta-bottom">
         <span class="read-time">6 min read</span>
@@ -169,8 +169,8 @@ order: 1
           <span class="badge">CSS Practice</span>
           <span class="card-date">25 Mar 2026</span>
         </div>
-        <div class="card-title">What I Learned from CSS Layout Practice</div>
-        <div class="card-excerpt">A simple note on using Flexbox and spacing rules to make beginner websites look cleaner and easier to read.</div>
+        <div class="card-title">The Geometry of Victory: Engineering the Win</div>
+        <div class="card-excerpt">My second week in which i learn about python programming and diff subjects and i attended a fiesta in my uet.</div>
       </div>
       <div class="card-meta-bottom">
         <span class="read-time">4 min read</span>
