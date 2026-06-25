@@ -406,7 +406,7 @@ order: 1
     <div class="card-body">
       <div>
         <div class="card-meta-top">
-          <span class="badge">Machine project</span>
+          <span class="badge">Machine Learning project</span>
           <span class="card-date">25 Mar 2026</span>
         </div>
         <div class="card-title">Engineering the Classifier: Training the Random Forest</div>
@@ -426,7 +426,7 @@ order: 1
     <div class="card-body">
       <div>
         <div class="card-meta-top">
-          <span class="badge">Machine project</span>
+          <span class="badge">Machine Learning project</span>
           <span class="card-date">25 Mar 2026</span>
         </div>
         <div class="card-title">Bridging Logic and Production: Building the Inference Engine</div>
@@ -435,6 +435,26 @@ order: 1
       <div class="card-meta-bottom">
         <span class="read-time">4 min read</span>
         <a href="/posts/my-15-week/" class="btn-read">Read More</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="article-card">
+    <div class="card-thumb">
+      <img src="/assets/img/16.jpeg?w=400&q=80" alt="CSS Practice"/>
+    </div>
+    <div class="card-body">
+      <div>
+        <div class="card-meta-top">
+          <span class="badge">Machine Learning project</span>
+          <span class="card-date">25 Mar 2026</span>
+        </div>
+        <div class="card-title">Deploying the Interface & Defending the Digital Footprint</div>
+        <div class="card-excerpt">Shifting our mental health predictive engine into a functional API web platform and successfully defending our architectural choices on presentation day at UET Lahore.</div>
+      </div>
+      <div class="card-meta-bottom">
+        <span class="read-time">4 min read</span>
+        <a href="/posts/my-16-week/" class="btn-read">Read More</a>
       </div>
     </div>
   </div>
