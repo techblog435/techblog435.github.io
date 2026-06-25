@@ -141,7 +141,7 @@ order: 1
 
   <div class="article-card">
     <div class="card-thumb">
-      <img src="images/farewell.jpg?w=400&q=80" alt="Welcome party"/>
+      <img src="/assets/img/farewell.jpg?w=400&q=80" alt="Welcome party"/>
     </div>
     <div class="card-body">
       <div>
