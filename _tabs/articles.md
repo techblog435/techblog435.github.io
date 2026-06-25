@@ -339,5 +339,25 @@ order: 1
     </div>
   </div>
 
+  <div class="article-card">
+    <div class="card-thumb">
+      <img src="/assets/img/11.png?w=400&q=80" alt="CSS Practice"/>
+    </div>
+    <div class="card-body">
+      <div>
+        <div class="card-meta-top">
+          <span class="badge">Database Systems</span>
+          <span class="card-date">25 Mar 2026</span>
+        </div>
+        <div class="card-title">Aggregating the Big Picture</div>
+        <div class="card-excerpt">Analyzing mid-semester academic performance, mastering SQL aggregation functions, and leveraging statistical analysis to uncover overarching data trends.</div>
+      </div>
+      <div class="card-meta-bottom">
+        <span class="read-time">4 min read</span>
+        <a href="/posts/my-11-week/" class="btn-read">Read More</a>
+      </div>
+    </div>
+  </div>
+
 
 </div>
