@@ -146,7 +146,7 @@ order: 1
     <div class="card-body">
       <div>
         <div class="card-meta-top">
-          <span class="badge">Lab Project</span>
+          <span class="badge">Welcome From our seniors</span>
           <span class="card-date">20 Mar 2026</span>
         </div>
         <div class="card-title">Visualizing the UET Spirit</div>
@@ -166,7 +166,7 @@ order: 1
     <div class="card-body">
       <div>
         <div class="card-meta-top">
-          <span class="badge">CSS Practice</span>
+          <span class="badge">Programming fundamentals</span>
           <span class="card-date">25 Mar 2026</span>
         </div>
         <div class="card-title">The Geometry of Victory: Engineering the Win</div>
@@ -186,11 +186,11 @@ order: 1
     <div class="card-body">
       <div>
         <div class="card-meta-top">
-          <span class="badge">JavaScript</span>
+          <span class="badge">Machine learning project</span>
           <span class="card-date">01 Apr 2026</span>
         </div>
         <div class="card-title">My project outputs of graphs</div>
-        <div class="card-excerpt">Notes from practicing DOM manipulation — changing text, hiding elements, and responding to button clicks.</div>
+        <div class="card-excerpt">Encoding categorical data and converting them into numerical and many more like this by which we use different libraries.</div>
       </div>
       <div class="card-meta-bottom">
         <span class="read-time">5 min read</span>
@@ -198,5 +198,26 @@ order: 1
       </div>
     </div>
   </div>
+
+  <div class="article-card">
+    <div class="card-thumb">
+      <img src="/assets/img/graphs.png?w=400&q=80" alt="CSS Practice"/>
+    </div>
+    <div class="card-body">
+      <div>
+        <div class="card-meta-top">
+          <span class="badge">CSS Practice</span>
+          <span class="card-date">25 Mar 2026</span>
+        </div>
+        <div class="card-title">The Machine learnig outcomes of our project</div>
+        <div class="card-excerpt">The bar chart ,pie chart and many more other charts and outputs that are given by our model.</div>
+      </div>
+      <div class="card-meta-bottom">
+        <span class="read-time">4 min read</span>
+        <a href="/posts/my-4-week/" class="btn-read">Read More</a>
+      </div>
+    </div>
+  </div>
+
 
 </div>
