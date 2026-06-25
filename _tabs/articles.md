@@ -281,6 +281,26 @@ order: 1
 
   <div class="article-card">
     <div class="card-thumb">
+      <img src="/assets/img/8.png?w=400&q=80" alt="CSS Practice"/>
+    </div>
+    <div class="card-body">
+      <div>
+        <div class="card-meta-top">
+          <span class="badge">Database Systems</span>
+          <span class="card-date">25 Mar 2026</span>
+        </div>
+        <div class="card-title">Querying the Core: Structured Retrieval</div>
+        <div class="card-excerpt">Structured Retrieval is a search method that finds information by querying organized, highly defined data schemas (like SQL databases or tagged metadata) rather than searching through raw, unstructured text.</div>
+      </div>
+      <div class="card-meta-bottom">
+        <span class="read-time">4 min read</span>
+        <a href="/posts/my-8-week/" class="btn-read">Read More</a>
+      </div>
+    </div>
+  </div>
+  
+  <div class="article-card">
+    <div class="card-thumb">
       <img src="/assets/img/9.png?w=400&q=80" alt="CSS Practice"/>
     </div>
     <div class="card-body">
@@ -295,6 +315,26 @@ order: 1
       <div class="card-meta-bottom">
         <span class="read-time">4 min read</span>
         <a href="/posts/my-9-week/" class="btn-read">Read More</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="article-card">
+    <div class="card-thumb">
+      <img src="/assets/img/10.png?w=400&q=80" alt="CSS Practice"/>
+    </div>
+    <div class="card-body">
+      <div>
+        <div class="card-meta-top">
+          <span class="badge">Database Systems</span>
+          <span class="card-date">25 Mar 2026</span>
+        </div>
+        <div class="card-title">Relationships and Joins</div>
+        <div class="card-excerpt">Hostel group study collaborations, mastering INNER, LEFT, and RIGHT SQL joins, and mapping entity-relationship interconnections across databases and machine learning workflows.</div>
+      </div>
+      <div class="card-meta-bottom">
+        <span class="read-time">4 min read</span>
+        <a href="/posts/my-10-week/" class="btn-read">Read More</a>
       </div>
     </div>
   </div>
