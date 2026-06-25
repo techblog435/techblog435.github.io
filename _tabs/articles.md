@@ -221,7 +221,7 @@ order: 1
 
   <div class="article-card">
     <div class="card-thumb">
-      <img src="/assets/img/forests.png?w=400&q=80" alt="CSS Practice"/>
+      <img src="/assets/img/forest.png?w=400&q=80" alt="CSS Practice"/>
     </div>
     <div class="card-body">
       <div>
