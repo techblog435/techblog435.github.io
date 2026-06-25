@@ -379,5 +379,24 @@ order: 1
     </div>
   </div>
 
+  <div class="article-card">
+    <div class="card-thumb">
+      <img src="/assets/img/13.png?w=400&q=80" alt="CSS Practice"/>
+    </div>
+    <div class="card-body">
+      <div>
+        <div class="card-meta-top">
+          <span class="badge"> project</span>
+          <span class="card-date">25 Mar 2026</span>
+        </div>
+        <div class="card-title">The Call to Impact: Setting the Problem Domain</div>
+        <div class="card-excerpt">Setting the problem domain for mental health predictive modeling, establishing our development environment, and balancing datasets under the expert guidance of Dr. Bilal Ahmad.</div>
+      </div>
+      <div class="card-meta-bottom">
+        <span class="read-time">4 min read</span>
+        <a href="/posts/my-13-week/" class="btn-read">Read More</a>
+      </div>
+    </div>
+  </div>
 
 </div>
