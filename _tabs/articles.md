@@ -189,7 +189,7 @@ order: 1
           <span class="badge">JavaScript</span>
           <span class="card-date">01 Apr 2026</span>
         </div>
-        <div class="card-title">My First JavaScript DOM Exercise</div>
+        <div class="card-title">My project outputs of graphs</div>
         <div class="card-excerpt">Notes from practicing DOM manipulation — changing text, hiding elements, and responding to button clicks.</div>
       </div>
       <div class="card-meta-bottom">
