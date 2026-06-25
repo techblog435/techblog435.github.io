@@ -210,7 +210,7 @@ order: 1
           <span class="card-date">25 Mar 2026</span>
         </div>
         <div class="card-title">The Machine learnig outcomes of our project</div>
-        <div class="card-excerpt">The bar chart ,pie chart and many more other charts and outputs that are given by our model.</div>
+        <div class="card-excerpt">The bar chart ,pie chart,line and many more other charts and outputs that are given by our model.</div>
       </div>
       <div class="card-meta-bottom">
         <span class="read-time">4 min read</span>
