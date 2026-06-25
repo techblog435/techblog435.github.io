@@ -1,3 +1,9 @@
+---
+layout: default
+title: About
+permalink: /about/
+---
+
 # Hi there, I'm Muhammad Ibrahim! 👋
 
 A passionate **BSc Computer Engineering** student at the **University of Engineering and Technology (UET)**. I bridge the gap between software logic and hardware architecture, focusing on building practical, real-world solutions.
