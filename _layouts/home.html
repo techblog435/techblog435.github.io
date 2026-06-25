@@ -37,11 +37,11 @@ layout: default
 <div class="hero-section">
   <div class="hero-badge">🎓 UET Faisalabad · BSCPE 2025</div>
   <h1 class="hero-name">Muhammad Ibrahim<br></h1>
-  <p class="hero-desc">I’m currently a BSc Computer Engineering student at UET, where I’ve been diving deep into the world of tech and systems. My journey started in my first semester with Python, which really opened my eyes to how logic can be turned into functional tools. It was a great introduction to the world of programming and gave me a solid foundation in algorithmic thinking. <strong style="color:white;">Dr. Bilal Ahmad</strong> at UET Faisalabad.</p>
+  <p class="hero-desc">I’m currently a BSc Computer Engineering student at UET, where I’ve been diving deep into the world of tech and systems. My journey started in my first semester with Python, which really opened my eyes to how logic can be turned into functional tools. It was a great introduction to the world of programming and gave me a solid foundation in algorithmic thinking under the guidance of <strong style="color:white;">Dr. Bilal Ahmad</strong> at UET Faisalabad.</p>
   <div class="hero-buttons">
     <a href="/articles/" class="btn-primary">📚 Read My Posts</a>
-    <a href="/contact us/" class="btn-outline">👤 Contact me</a>
-    <a href="https://github.com/techblog435" class="btn-outline">🐙 GitHub</a>
+    <a href="/about/" class="btn-outline">👤 About Me</a>
+    <a href="https://github.com/muhammadibrahim1054" class="btn-outline">🐙 GitHub</a>
   </div>
   <div class="stats-grid">
     <div><div class="stat-number">15+</div><div class="stat-label">Blog Posts</div></div>
@@ -74,17 +74,13 @@ layout: default
   </div>
 </div>
 
-<h2 class="section-title">What I Write About</h2>
-<p class="section-subtitle">My posts cover everything I learn this semester — from Python basics to SQL databases.</p>
-
-
 <h2 class="section-title">Latest Posts</h2>
 <p class="section-subtitle">My most recent articles from this semester.</p>
 {% for post in site.posts limit:6 %}
-<a href="{{ post.url }}" style="text-decoration:none;display:block;background:white;border-radius:16px;margin-bottom:20px;box-shadow:0 4px 20px rgba(0,0,0,0.08);overflow:hidden;border:1px solid #eee;">
+<a href="{{ post.url | relative_url }}" style="text-decoration:none;display:block;background:white;border-radius:16px;margin-bottom:20px;box-shadow:0 4px 20px rgba(0,0,0,0.08);overflow:hidden;border:1px solid #eee;">
   {% if post.image %}
   <div style="height:200px;overflow:hidden;">
-    <img src="{{ post.image.path }}" style="width:100%;height:100%;object-fit:cover;" alt="{{ post.title }}"/>
+    <img src="{{ post.image.path | relative_url }}" style="width:100%;height:100%;object-fit:cover;" alt="{{ post.title }}"/>
   </div>
   {% endif %}
   <div style="padding:24px;">
