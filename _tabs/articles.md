@@ -161,7 +161,7 @@ order: 1
 
   <div class="article-card">
     <div class="card-thumb">
-      <img src="https://images.unsplash.com/photo-1507721999472-8ed4421c4af2?w=400&q=80" alt="CSS Practice"/>
+      <img src="/assets/img/second.png?w=400&q=80" alt="CSS Practice"/>
     </div>
     <div class="card-body">
       <div>
