@@ -386,7 +386,7 @@ order: 1
     <div class="card-body">
       <div>
         <div class="card-meta-top">
-          <span class="badge"> project</span>
+          <span class="badge">Machine learnig project</span>
           <span class="card-date">25 Mar 2026</span>
         </div>
         <div class="card-title">The Call to Impact: Setting the Problem Domain</div>
@@ -398,5 +398,26 @@ order: 1
       </div>
     </div>
   </div>
+
+  <div class="article-card">
+    <div class="card-thumb">
+      <img src="/assets/img/14.png?w=400&q=80" alt="CSS Practice"/>
+    </div>
+    <div class="card-body">
+      <div>
+        <div class="card-meta-top">
+          <span class="badge">Machine project</span>
+          <span class="card-date">25 Mar 2026</span>
+        </div>
+        <div class="card-title">Engineering the Classifier: Training the Random Forest</div>
+        <div class="card-excerpt">Diving into the lab to train our Random Forest Classifier, focusing on reducing false negatives.</div>
+      </div>
+      <div class="card-meta-bottom">
+        <span class="read-time">4 min read</span>
+        <a href="/posts/my-14-week/" class="btn-read">Read More</a>
+      </div>
+    </div>
+  </div>
+
 
 </div>
