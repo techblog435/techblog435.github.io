@@ -181,7 +181,7 @@ order: 1
 
   <div class="article-card">
     <div class="card-thumb">
-      <img src="/assets/img/third_week.jpg?w=400&q=80" alt="JavaScript"/>
+      <img src="/assets/img/third_week.png?w=400&q=80" alt="JavaScript"/>
     </div>
     <div class="card-body">
       <div>
