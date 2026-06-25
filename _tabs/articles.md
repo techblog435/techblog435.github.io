@@ -259,5 +259,25 @@ order: 1
     </div>
   </div>
 
+  <div class="article-card">
+    <div class="card-thumb">
+      <img src="/assets/img/7.png?w=400&q=80" alt="CSS Practice"/>
+    </div>
+    <div class="card-body">
+      <div>
+        <div class="card-meta-top">
+          <span class="badge">SQL and Database</span>
+          <span class="card-date">25 Mar 2026</span>
+        </div>
+        <div class="card-title">Begining of 2nd semester</div>
+        <div class="card-excerpt">We start our semester with a beatufil begining and the knowledge of sql and the project of sql.</div>
+      </div>
+      <div class="card-meta-bottom">
+        <span class="read-time">4 min read</span>
+        <a href="/posts/my-7-week/" class="btn-read">Read More</a>
+      </div>
+    </div>
+  </div>
+
 
 </div>
