@@ -141,7 +141,7 @@ order: 1
 
   <div class="article-card">
     <div class="card-thumb">
-      <img src="[https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=400&q=80](https://www.istockphoto.com/vector/farewell-party-neon-lettering-on-brick-wall-background-gm1673741854-536038580)" alt="Welcome party"/>
+      <img src="[(https://www.istockphoto.com/vector/farewell-party-neon-lettering-on-brick-wall-background-gm1673741854-536038580)" alt="Welcome party"]/>
     </div>
     <div class="card-body">
       <div>
