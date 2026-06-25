@@ -359,5 +359,25 @@ order: 1
     </div>
   </div>
 
+  <div class="article-card">
+    <div class="card-thumb">
+      <img src="/assets/img/12.png?w=400&q=80" alt="CSS Practice"/>
+    </div>
+    <div class="card-body">
+      <div>
+        <div class="card-meta-top">
+          <span class="badge">Digital Logic Design</span>
+          <span class="card-date">25 Mar 2026</span>
+        </div>
+        <div class="card-title">The Logic of the Digital Ludo Dice</div>
+        <div class="card-excerpt">Prepping hardware components for the DLD project exhibition, designing sequential circuits, and building a randomized electronic ludo dice using logic gates.</div>
+      </div>
+      <div class="card-meta-bottom">
+        <span class="read-time">4 min read</span>
+        <a href="/posts/my-12-week/" class="btn-read">Read More</a>
+      </div>
+    </div>
+  </div>
+
 
 </div>
