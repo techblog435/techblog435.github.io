@@ -181,7 +181,7 @@ order: 1
 
   <div class="article-card">
     <div class="card-thumb">
-      <img src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=400&q=80" alt="JavaScript"/>
+      <img src="/assets/img/third_week.jpg?w=400&q=80" alt="JavaScript"/>
     </div>
     <div class="card-body">
       <div>
@@ -194,7 +194,7 @@ order: 1
       </div>
       <div class="card-meta-bottom">
         <span class="read-time">5 min read</span>
-        <a href="#" class="btn-read">Read More</a>
+        <a href="/posts/my-third-week" class="btn-read">Read More</a>
       </div>
     </div>
   </div>
