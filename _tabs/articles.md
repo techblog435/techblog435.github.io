@@ -419,5 +419,25 @@ order: 1
     </div>
   </div>
 
+  <div class="article-card">
+    <div class="card-thumb">
+      <img src="/assets/img/15.png?w=400&q=80" alt="CSS Practice"/>
+    </div>
+    <div class="card-body">
+      <div>
+        <div class="card-meta-top">
+          <span class="badge">Machine project</span>
+          <span class="card-date">25 Mar 2026</span>
+        </div>
+        <div class="card-title">Bridging Logic and Production: Building the Inference Engine</div>
+        <div class="card-excerpt">Overcoming the engineering hurdle of real-time data processing by writing a dedicated Python inference engine to pass input variables into our trained model.</div>
+      </div>
+      <div class="card-meta-bottom">
+        <span class="read-time">4 min read</span>
+        <a href="/posts/my-15-week/" class="btn-read">Read More</a>
+      </div>
+    </div>
+  </div>
+
 
 </div>
