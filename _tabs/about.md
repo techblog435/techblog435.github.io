@@ -8,7 +8,7 @@ A passionate **BSc Computer Engineering** student at the **University of Enginee
 
 * **🎓 Education:** BSc Computer Engineering (Section B) @ UET
 * **💻 Tech Interests:** Database Architecture, Object-Oriented Programming (OOP), Machine Learning, and Digital Systems.
-* **🎯 Current Focus:** Refining my technical toolkit, upgrading my digital footprint, and building out my portfolio website over the summer break.
+* **🎯 Current Focus:** Refinig my technical toolkit, upgrading my digital footprint, and building out my portfolio website over the summer break.
 
 ---
 
