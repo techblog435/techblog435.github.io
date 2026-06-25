@@ -6,10 +6,17 @@ tags: [uet, matplotlib, seaborn, data-viz]
 description: Reflections on my first official event as a CE student and a deep dive into data storytelling.
 image:
   path: /assets/img/welcome.jpg
-  path: /assets/img/headers/farewell.jpg
-  alt: Visualizing the UET Spirit group photo
+  
 ---
 
+<!-- This hides the default header image from appearing on the inside page -->
+<style>
+  .post-preview-img { display: none !important; }
+</style>
+
+![Visualizing the UET Spirit group photo](/assets/img/headers/farewell.jpg)
+
+Reflections on my first official event as a CE student and a deep dive into data storytelling...
 ## The Senior’s Welcome: Reflections on my first official event as a CE student
 
 Entering UET as a Computer Engineering student has been a whirlwind of excitement. The Senior's Welcome was my first official introduction to the culture here. It wasn't just an event; it was a transition into a community of innovators. Meeting the seniors gave me a clear vision of the path ahead—one filled with late-night coding, complex hardware labs, and a lot of collaborative spirit.
