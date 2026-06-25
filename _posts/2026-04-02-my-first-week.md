@@ -6,6 +6,8 @@ tags: [uet, matplotlib, seaborn, data-viz]
 description: Reflections on my first official event as a CE student and a deep dive into data storytelling.
 image:
   path: /assets/img/welcome.jpg
+  path: /assets/img/headers/farewell.jpg
+  alt: Visualizing the UET Spirit group photo
 ---
 
 ## The Senior’s Welcome: Reflections on my first official event as a CE student
