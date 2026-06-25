@@ -281,20 +281,20 @@ order: 1
 
   <div class="article-card">
     <div class="card-thumb">
-      <img src="/assets/img/8.png?w=400&q=80" alt="CSS Practice"/>
+      <img src="/assets/img/9.png?w=400&q=80" alt="CSS Practice"/>
     </div>
     <div class="card-body">
       <div>
         <div class="card-meta-top">
-          <span class="badge">Sql queries</span>
+          <span class="badge">Database Systems</span>
           <span class="card-date">25 Mar 2026</span>
         </div>
-        <div class="card-title">Knowledge of SQL</div>
-        <div class="card-excerpt">IN this part we learn about queries of SQL like WHERE,SELECT,HAVING etc.</div>
+        <div class="card-title">Normalization: Eliminating the Chaos</div>
+        <div class="card-excerpt">Overcoming mid-semester stress, systematically moving from 1NF to 3NF to eliminate anomalies, and drawing parallels between database normalization and preprocessing datasets for predictive models.</div>
       </div>
       <div class="card-meta-bottom">
         <span class="read-time">4 min read</span>
-        <a href="/posts/my-8-week/" class="btn-read">Read More</a>
+        <a href="/posts/my-9-week/" class="btn-read">Read More</a>
       </div>
     </div>
   </div>
