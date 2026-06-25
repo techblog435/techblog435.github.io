@@ -219,5 +219,25 @@ order: 1
     </div>
   </div>
 
+  <div class="article-card">
+    <div class="card-thumb">
+      <img src="/assets/img/forests.png?w=400&q=80" alt="CSS Practice"/>
+    </div>
+    <div class="card-body">
+      <div>
+        <div class="card-meta-top">
+          <span class="badge">Random forest</span>
+          <span class="card-date">25 Mar 2026</span>
+        </div>
+        <div class="card-title">The Machine learnig models of our project</div>
+        <div class="card-excerpt">The models in machine learnig which we used for prediction and mean absolute error.</div>
+      </div>
+      <div class="card-meta-bottom">
+        <span class="read-time">4 min read</span>
+        <a href="/posts/my-5-week/" class="btn-read">Read More</a>
+      </div>
+    </div>
+  </div>
+
 
 </div>
